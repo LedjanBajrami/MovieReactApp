@@ -1,0 +1,14 @@
+h2{
+   font-family: fantasy;
+   color: black;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.backimg{
+    background-image: url("../../Assets/backi.jpg");
+    background-size: cover;
+    background-position:bottom;
+    height: 100vh;
+}

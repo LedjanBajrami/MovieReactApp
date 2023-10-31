@@ -1,0 +1,62 @@
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Sigmar', cursive;
+    color: beige;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    font-weight: normal;
+}
+
+h2:hover {
+    font-size: 4.2rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.ListFilms{
+    font-family: 'Sigmar', cursive;
+    text-decoration: none;
+    color:darkslategray;
+    font-size: 3vh;
+    position: relative;
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 10px 0;
+  
+}
+.ListFilms::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 2px;
+    background-color: darkcyan;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.ListFilms:hover {
+    color:darkcyan;
+}
+
+.ListFilms:hover::before {
+    transform: scaleX(1);
+}
+
+.ListFilms:hover span {
+    transform: translateY(-50%) scale(1.2);
+}
+.container-fluid {
+    background-image: url("../../Assets/backi.jpg");
+    background-size: cover;
+    background-position: center center;
+ 
+    /* add any other styles you want for the container */
+  }
